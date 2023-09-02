@@ -1,0 +1,16 @@
+html{
+    scrollbar-width: normal;
+    scrollbar-color: #6365f149;
+}
+
+html::-webkit-scrollbar{
+    width: 10px;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: #6365f149;
+}
+
+html::-webkit-scrollbar-track{
+    
+   background-color: #102d44;
+}

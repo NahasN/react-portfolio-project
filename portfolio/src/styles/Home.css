@@ -1,0 +1,63 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Align children with space in between */
+}
+
+.text-section {
+  flex: 1; /* Take available space */
+  margin-right: 20px;
+  margin-left: 30px;
+}
+
+.image-section {
+  flex: 1; /* Take available space */
+}
+
+.text-section h2 {
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.text-section h3 {
+  color: #6366f1;
+  font-size: 30px;
+}
+
+.dwnld-btn {
+  border: none;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dwnld-btn {
+  margin-top: 20px;
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.dwnld-btn:hover {
+  background-color: #6366f1;
+  transition: 0.7s;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 200px) {
+  
+  .main {
+    margin-top: 100px;
+    flex-direction: column; 
+    justify-content: center; 
+  }
+
+  .text-section,
+  .image-section {
+    margin: 0; 
+    width: 100%;
+    text-align: start;
+  }
+}
